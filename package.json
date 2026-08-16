@@ -1,0 +1,31 @@
+{
+  "name": "works-markdown-preview",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Safe Markdown and Mermaid previews for NAVER WORKS web chat.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "verify:dist": "node scripts/verify-dist.mjs",
+    "check": "npm run typecheck && npm run test && npm run build && npm run verify:dist"
+  },
+  "dependencies": {
+    "dompurify": "3.4.13",
+    "markdown-it": "15.0.0",
+    "mermaid": "11.16.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/chrome": "0.2.6",
+    "@types/node": "26.2.0",
+    "esbuild": "0.28.2",
+    "jsdom": "29.0.0",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  }
+}

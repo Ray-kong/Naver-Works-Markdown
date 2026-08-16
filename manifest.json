@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "WORKS Markdown Preview",
+  "version": "0.1.2",
+  "description": "NAVER WORKS 메시지와 Markdown 파일을 안전하게 미리 봅니다.",
+  "web_accessible_resources": [
+    {
+      "resources": ["mermaid.js"],
+      "matches": ["https://talk.worksmobile.com/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://talk.worksmobile.com/*"],
+      "js": ["main-world.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://talk.worksmobile.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ]
+}
