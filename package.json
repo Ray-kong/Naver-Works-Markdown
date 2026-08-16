@@ -2,6 +2,7 @@
   "name": "works-markdown-preview",
   "version": "0.1.2",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Safe Markdown and Mermaid previews for NAVER WORKS web chat.",
   "scripts": {
