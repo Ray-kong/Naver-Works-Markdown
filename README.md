@@ -33,7 +33,9 @@ Firefox, 모바일·데스크톱 네이티브 WORKS 앱, Markdown 편집, 임의
 
 ### 배포 ZIP 사용
 
-1. `WORKS-Markdown-Preview-0.1.2.zip`을 원하는 폴더에 압축 해제합니다.
+[`WORKS-Markdown-Preview-0.1.2.zip` 바로 다운로드](https://github.com/Ray-kong/Naver-Works-Markdown/raw/refs/heads/main/releases/WORKS-Markdown-Preview-0.1.2.zip)
+
+1. 위 링크에서 `WORKS-Markdown-Preview-0.1.2.zip`을 내려받아 원하는 폴더에 압축 해제합니다.
 2. Chrome에서는 `chrome://extensions`, Brave에서는 `brave://extensions`를 엽니다.
 3. 우측 상단의 **개발자 모드**를 켭니다.
 4. **압축해제된 확장 프로그램을 로드합니다**를 선택합니다.
